@@ -1,0 +1,304 @@
+@font-face {
+    font-family: sans-serif;
+    src: url(https://fonts.gstatic.com/s/barlow/v11/7cHpv4kjgoGqM7E_DMs5.woff2) format('woff2');
+}
+
+
+
+.container {
+    position: relative;
+    display: flex;
+
+}
+
+
+.logoPicture {
+	position: absolute;
+	top: 50px;
+	width: 10%;
+	margin-left: 35px;
+	
+}
+
+.right {
+	margin-top: 100px;
+	margin-left: 50px;
+
+
+}
+
+.right h1 {
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.title-box {
+	margin-bottom: 30px;
+}
+
+.socials {
+	position: relative;
+	display: flex;
+}
+
+.btnFacebook {
+	width: 200px;
+	height: 35px;
+	background: rgb(37,91,155);
+	border: none;
+	margin-right: 30px;
+
+}
+
+.logoFacebook {
+	width: 14px;
+	margin-right: 180px;
+	
+
+}
+
+
+.btnFacebook .text {
+	margin-bottom: 50px;
+	position: absolute;
+	top: 9px;
+	margin-left: 30px;
+	margin-top: 2px;
+	color: white;
+	font-size: 11px;
+
+}
+
+.btnFacebook:hover {
+	cursor: pointer;
+}
+
+.logoLinkedin {
+	width: 14px;
+	margin-right: 180px;
+}
+
+.btnLinkedin {
+	width: 200px;
+	height: 35px;
+	background: rgb(0,118,182);
+	border: none
+}
+
+
+.text a {
+	text-decoration: none;
+	color: white;
+}
+
+
+.btnLinkedin .text {
+	margin-bottom: 50px;
+	position: absolute;
+	top: 9px;
+	margin-left: 25px;
+	margin-top: 2px;
+	color: white;
+	font-size: 11px;
+
+}
+
+
+.btnLinkedin:hover {
+	cursor: pointer;
+}
+
+
+
+.leftLine {
+    width: 103px;
+    border-bottom: 1px solid #e5e5e5;
+	padding: 0;
+	height: 0;
+	border-top: #fff;
+
+}
+
+.rightLine {
+	width: 103px;
+    border-bottom: 1px solid #e5e5e5;
+	padding: 0;
+	height: 0;
+	border-top: #fff;
+}
+.addLogInOptions .text {
+	font-size: 8px;
+}
+
+
+.localContainer {
+	display: flex;
+	margin-top: 40px;
+	
+}
+
+
+.mailAndPhone {
+	margin-top: 40px;
+	display: flex;
+	
+}
+
+
+.e-mail {
+	margin-right: 25px;
+
+}
+
+.mailAndPhone input {
+	padding-top: 25px;
+	width: 190px;
+	border: 1px solid #e5e5e5; 
+	padding-left: 10px;
+	outline: none;
+	padding-bottom: 5px;
+
+
+}
+
+
+.mailAndPhone label {
+	position: absolute;
+	margin-left: 10px;
+	color: gray; 
+	margin-top: 5px;
+
+}
+
+
+.choseInvestorType {
+	margin-top: 40px;
+}
+
+p {
+	color: gray;
+}
+
+.investorOptions {
+	margin-top: 40px;
+	display: flex;
+}
+
+.investorOptions button {
+	height: 15px;
+	border-radius: 50%;
+	border: 2px solid #e5e5e5ce;
+	background: white;
+	
+}
+
+.investorOptions button:focus {
+	border: 2.5px solid hwb(210 11% 5%);
+	
+}
+
+
+.investorOptions .individual, .business, .IRA, .trust {
+	margin-right: 40px;
+	font-size: 15px;
+}
+
+
+.btnAccount {
+	margin-top: 100px;
+	background: #3698fb;
+	color: white;
+	width: 200px;
+	height: 35px;
+	border: none;
+}
+
+.btnAccount:hover {
+	cursor: pointer;
+}
+
+.terms {
+	margin-top: 80px;
+	
+}
+
+
+.createAccount {
+	position: relative;
+	width: 450px;
+}
+
+.clickText {
+	border: none;
+	background: none;
+	color: rgb(0, 174, 255);
+	position: absolute;
+	left: 325px;
+	margin-top: 4.3px;
+	text-decoration: underline;
+	font-family: inherit;
+	font-size: 12px;
+
+}
+
+.clickText:hover {
+	cursor: pointer;
+}
+
+.terms label {
+	font-size: 13px;
+
+
+}
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
